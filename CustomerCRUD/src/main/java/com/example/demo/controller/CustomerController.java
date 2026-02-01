@@ -20,6 +20,9 @@ import com.example.demo.service.CustomerService;
 @RestController
 public class CustomerController {	
 	
+	
+	// Customer1
+	
 	@Autowired
 	private CustomerService cs;
 	
@@ -35,6 +38,8 @@ public class CustomerController {
 		
 				
 	}
+	
+	
 	
 
 	@GetMapping("display")
