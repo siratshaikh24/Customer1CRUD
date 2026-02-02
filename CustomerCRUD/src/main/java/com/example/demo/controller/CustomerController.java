@@ -48,7 +48,7 @@ public class CustomerController {
 	
 	
 
-	@GetMapping("display")
+	@GetMapping("/display")
 	public List<Customer> display() {
 		return cs.display();
 		
