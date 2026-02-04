@@ -25,6 +25,7 @@ public class CustomerController {
 	
 	
 	// Customer1
+	//Customer
 	
 	@Autowired
 	private CustomerService cs;
