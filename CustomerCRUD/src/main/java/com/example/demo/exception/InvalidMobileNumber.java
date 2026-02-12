@@ -6,7 +6,6 @@ public class InvalidMobileNumber extends RuntimeException {
 		super(message);
 		
 	}
-
 	
 	
 }
