@@ -11,8 +11,7 @@ import com.example.demo.model.Customer;
 import com.example.demo.service.CustomerService;
 
 @RestController
-@CrossOrigin(methods = {RequestMethod.GET,RequestMethod.POST}, origins =  {"*"})
-
+@CrossOrigin("*")
 public class CustomerController {
 
     @Autowired
