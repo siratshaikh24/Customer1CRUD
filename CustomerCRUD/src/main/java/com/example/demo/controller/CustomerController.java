@@ -11,7 +11,7 @@ import com.example.demo.model.Customer;
 import com.example.demo.service.CustomerService;
 
 @RestController
-@CrossOrigin(methods = {RequestMethod.GET,RequestMethod.POST}, originPatterns = "*")
+@CrossOrigin(methods = {RequestMethod.GET,RequestMethod.POST}, origins =  {"*"})
 
 public class CustomerController {
 
