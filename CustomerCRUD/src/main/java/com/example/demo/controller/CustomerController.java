@@ -11,7 +11,7 @@ import com.example.demo.model.Customer;
 import com.example.demo.service.CustomerService;
 
 @RestController
-@RequestMapping("/")
+@CrossOrigin("*")
 public class CustomerController {
 
     @Autowired
